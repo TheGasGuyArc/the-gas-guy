@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>THE GAS GUY — $GASUSDC</title>
+<meta name="description" content="The network never sleeps. Neither does he.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;600;800&display=swap');
+:root{--bg:#030711;--blue:#1595ff;--cyan:#52c7ff;--ink:#eaf3ff;--muted:#8c9bb0;--line:#172941}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 70% 15%,#08254a 0,#030711 35%),#030711;color:var(--ink);font-family:Inter,sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.05;background-image:linear-gradient(#fff 1px,transparent 1px),linear-gradient(90deg,#fff 1px,transparent 1px);background-size:5px 5px;z-index:20}
+a{text-decoration:none;color:inherit}.wrap{max-width:1180px;margin:auto;padding:0 24px}
+nav{height:70px;position:sticky;top:0;z-index:15;background:#030711dd;backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}
+.navin{height:100%;display:flex;align-items:center;justify-content:space-between}.logo{font:28px Anton;letter-spacing:1px}.logo i{color:var(--blue);font-style:normal}.links{display:flex;gap:28px;font-size:12px;font-weight:800;color:#aab6c8}.links a:hover{color:white}
+.hero{min-height:calc(100vh - 70px);display:grid;grid-template-columns:48% 52%;align-items:center;gap:10px;position:relative}.hero:after{content:"";position:absolute;width:430px;height:430px;border-radius:50%;background:#008cff18;filter:blur(50px);right:8%;top:20%;z-index:-1}
+.kicker,.label{color:var(--blue);font-size:12px;font-weight:800;letter-spacing:3px}.hero h1{font:clamp(76px,10vw,142px)/.78 Anton;margin:16px 0;letter-spacing:-3px}.tag{font:800 20px/1.25 Inter;color:#35aaff}.sub{font-size:17px;line-height:1.7;color:#bdc8d8;max-width:520px}.cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:28px}.btn{padding:14px 19px;border-radius:999px;border:1px solid #29415f;background:#091525;font-weight:800;font-size:13px;transition:.2s}.btn:hover{transform:translateY(-2px);border-color:#4c78a8}.primary{background:var(--blue);color:#00101d;border-color:var(--blue)}
+.heroart{width:100%;border-radius:24px;border:1px solid #213a59;box-shadow:0 30px 100px #0008;animation:float 5s ease-in-out infinite}
+@keyframes float{50%{transform:translateY(-7px)}}@keyframes blink{50%{opacity:.25}}
+.live{margin-top:28px;display:flex;gap:9px;align-items:center;color:#7f91a9;font-size:11px}.dot{width:8px;height:8px;border-radius:50%;background:#22ff91;box-shadow:0 0 15px #22ff91;animation:blink 1.2s infinite}
+section{padding:110px 0;border-top:1px solid var(--line)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}
+h2{font:60px/.9 Anton;margin:12px 0 24px}p{color:#aebbd0;line-height:1.8}.panel{background:linear-gradient(145deg,#091524,#050b14);border:1px solid #1b304b;border-radius:24px;padding:28px}
+.terminal{font-family:monospace}.termhead{display:flex;justify-content:space-between;color:#708198;font-size:12px;border-bottom:1px solid #1b304b;padding-bottom:15px}.termrow{display:flex;justify-content:space-between;padding:17px 0;border-bottom:1px solid #14263b}.green{color:#29e99a}.big{font:58px Anton;color:#58b8ff}
+.tokenstats{display:grid;grid-template-columns:1fr 1fr;gap:10px}.stat{border:1px solid #19304a;padding:17px;border-radius:16px}.stat small{display:block;color:#73839a;font-size:10px;letter-spacing:1px;margin-bottom:7px}.stat b{font-size:17px}
+.quote{font:30px/1.15 Anton;color:white;border-left:3px solid var(--blue);padding-left:22px}.station{border-radius:24px;overflow:hidden;border:1px solid #203751;position:relative}.station img{display:block;width:100%}.station:after{content:"OPEN 24/7";position:absolute;right:18px;top:18px;background:#03101dcc;border:1px solid #21639a;padding:9px 12px;border-radius:999px;font-size:11px;font-weight:800;color:#4db6ff}
+.memes{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}.meme{min-height:170px;padding:24px;border:1px solid #1b304a;border-radius:20px;background:#07101d;display:flex;align-items:end;font:25px/1 Anton}.meme span{color:#40aaff}
+.community{text-align:center}.community p{max-width:650px;margin:auto}.social{display:flex;justify-content:center;gap:10px;margin-top:28px;flex-wrap:wrap}
+footer{padding:45px 0;border-top:1px solid var(--line);color:#708098;font-size:12px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+@media(max-width:800px){.links{display:none}.hero,.grid{grid-template-columns:1fr}.hero{padding:65px 0}.heroart{order:-1}.hero h1{font-size:82px}.memes{grid-template-columns:1fr}h2{font-size:48px}}
+</style>
+</head>
+<body>
+<nav><div class="wrap navin"><a class="logo" href="#">THE <i>GAS GUY</i></a><div class="links"><a href="#about">ABOUT</a><a href="#token">TOKEN</a><a href="#shift">NIGHT SHIFT</a><a href="#community">COMMUNITY</a></div></div></nav>
+
+<header class="hero wrap">
+<div>
+<div class="kicker">ARC // USDC // NIGHT SHIFT</div>
+<h1>THE<br>GAS GUY</h1>
+<div class="tag">THE NETWORK NEVER SLEEPS.<br>NEITHER DOES HE.</div>
+<p>No ETH. No SOL. Just USDC.<br>Someone has to keep the gas flowing.</p>
+<div class="cta"><a class="btn primary" href="https://argus.world" target="_blank">TRADE ON ARGUS →</a><a class="btn" href="https://x.com/GasGuyUSDC" target="_blank">𝕏 @GasGuyUSDC</a></div>
+<div class="live"><span class="dot"></span> GAS STATION ONLINE · SHIFT 03:47 AM</div>
+</div>
+<img class="heroart" src="gas-guy.png" alt="The Gas Guy">
+</header>
+
+<section id="about"><div class="wrap grid">
+<div><div class="label">WHO IS THE GAS GUY?</div><h2>THE NIGHT SHIFT NEVER ENDS.</h2><p>While everyone else is building, trading and sleeping, one guy is still working the night shift.</p><p>He doesn't ask why. He just keeps the machine running.</p><div class="quote">“Everyone wants to build the future.<br>Nobody wants the night shift.”</div></div>
+<div class="panel terminal"><div class="termhead"><span>GAS_STATION_TERMINAL</span><span>ARC://ONLINE</span></div><div class="termrow"><span>SHIFT</span><b>03:47 AM</b></div><div class="termrow"><span>GAS FLOW</span><b class="green">NORMAL</b></div><div class="termrow"><span>SLEEP</span><b>DISABLED</b></div><div class="termrow"><span>COFFEE</span><b>EMPTY</b></div></div>
+</div></section>
+
+<section id="token"><div class="wrap grid">
+<div><div class="label">THE TOKEN</div><div class="big">$GASUSDC</div><p>A simple community meme built around the Arc ecosystem and USDC. Always verify the live token contract and trading details on Argus before interacting.</p><div class="tokenstats"><div class="stat"><small>NETWORK</small><b>Arc</b></div><div class="stat"><small>PAIR</small><b>USDC</b></div><div class="stat"><small>BUY TAX</small><b>1%</b></div><div class="stat"><small>SELL TAX</small><b>1%</b></div></div><div class="contract"><small>CONTRACT</small><code>0x7a9a58e07Cebaf1e6DF70f811Dd99b296BdA820c</code></div><div class="cta"><a class="btn primary" href="https://argus.world" target="_blank">OPEN ARGUS →</a><a class="btn" href="https://arc.etherscan.io/address/0x7a9a58e07Cebaf1e6DF70f811Dd99b296BdA820c" target="_blank">VIEW CONTRACT ↗</a></div></div>
+<div class="panel"><div class="label">THE RULES</div><h2 style="font-size:42px">KEEP IT SIMPLE.</h2><p>✓ Character first<br>✓ Meme culture first<br>✓ No fake promises<br>✓ No guaranteed returns<br>✓ Community decides the lore</p></div>
+</div></section>
+
+<section id="shift"><div class="wrap"><div class="label">NIGHT SHIFT // 24/7</div><h2>THE GAS STATION</h2><div class="station"><img src="gas-guy.png" alt="The Gas Guy gas station"></div></div></section>
+
+<section><div class="wrap"><div class="label">MEME LOG</div><h2>THE GUY HAS ONE JOB.</h2><div class="memes"><div class="meme">01 — <span>KEEP THE GAS FLOWING.</span></div><div class="meme">02 — <span>NO DAYS OFF.</span></div><div class="meme">03 — <span>USDC ONLY.</span></div></div></div></section>
+
+<section id="community" class="community"><div class="wrap"><div class="label">JOIN THE NIGHT SHIFT</div><h2>KEEP THE GAS FLOWING.</h2><p>Follow the character. Make memes. Build the lore. Don't make it boring.</p><div class="social"><a class="btn primary" href="https://x.com/GasGuyUSDC" target="_blank">𝕏 FOLLOW @GASGUYUSDC</a><a class="btn" href="https://argus.world" target="_blank">ARGUS ↗</a></div></div></section>
+
+<footer><div class="wrap foot"><span><b>THE GAS GUY</b> · $GASUSDC</span><span>Community meme on Arc. Not affiliated with or endorsed by Arc or Circle.</span><span>GAS FOREVER.</span></div></footer>
+</body></html>
